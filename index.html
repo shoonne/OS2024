@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Home </title>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/projektlogga.png" width="30" height="30" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Hem
+                        <span class="sr-only">(current)</span> 
+                    </a>
+                    <a class="nav-item nav-link" href="event.html">OM EVENTET</a>
+                    <a class="nav-item nav-link" href="#">ORTER</a>
+                    <a class="nav-item nav-link" href="#">REKOMENDATIONER</a>
+                    <a class="nav-item nav-link " href="schedule.html">SCHEMA</a>
+                </div>
+            </div>
+        </nav>
+    
+
+    <div class="container" id="homeimage">
+        <img src="img/sthlm.jpg" class="rounded mx-auto d-block" width="100%" alt="...">
+    </div>
+    <p class="text-center" id="welcometext">WELCOME
+        <span class="highlight">TO SWDEN</span>
+    </p>
+
+    <!-- SÖK RESA -->
+    <div class="container" id="navbar">
+        <form>
+            <div class="form-group">
+                <label>FRÅN</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Välj avreseort">
+                <small id="emailHelp" class="form-text text-muted">FROM</small>
+            </div>
+        </form>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">DESTINATION</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>STOCKHOLM</option>
+                <option>ÅRE</option>
+                <option>FALUN</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">SÖK</button>
+    </div>
+
+    <!-- HÄR SKA SÖKRESULTAT VISAS -->
+    <div class="container" id="searchresult">
+
+    </div>
+
+        <!-- TEXT OM OSS -->
+
+    <h1 class="text-center">OM OSS</h1>
+    <div class="container-fluid navbar">
+        
+        <p class="text-center">Den franske baronen och filosofen Pierre de Coubertin grundade de olympiska spelen 1894. Han var övertygad om att man kan göra världen bättre med hjälp av idrott. De första olympiska spelen arrangerades i Aten 1896. Inspirationen till spelen var hämtade från idrottstävlingar som hölls till guden Zeus ära i Grekland under antiken.</p>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

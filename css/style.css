@@ -1,0 +1,42 @@
+body{
+    background-color: #006699;
+    color: white;
+   
+}
+/*TEXT STORLEK OCH FONT*/
+h1{
+    font-family: Raleway;
+    font-size: 20px;
+}
+h4{
+    font-family: Raleway;
+    font-size: 16px; 
+}
+p{
+    font-family: Lato;
+    font-size: 12px;
+}
+
+/*FÄRG TILL NAV-BAR*/
+.navbar{
+    background: #ffcc00 !important; 
+    background-color: #ffcc00 !important; 
+}
+
+/* HEMSKÄRMSBILD */
+#homeimage{
+    position: relative;
+}
+
+/* ÄNDRAR FÄRG PÅ TEXT*/
+.highlight{
+    color: #ffcc00;
+}
+
+.center-block {
+    float:none;
+  }
+  /* FLYTTAR BILDEN TILL VÄNSTER I ABOUT */
+  .pad{
+      margin-right: 5px;
+  }
